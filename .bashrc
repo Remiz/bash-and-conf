@@ -3,6 +3,7 @@
 # Prompt : hostname + color + path
 PS1='\[\033[0;34m\]\h\[\033[0;33m\] \w\[\033[00m\]: '
 
+# Make tar gzip archived
 mktgz() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }
 
 #
