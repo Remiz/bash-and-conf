@@ -18,4 +18,6 @@ alias df="df -h" # df with readable size
 alias la="ls -Alh" # Display all with readable size
 alias psg="ps -ef | grep $1" # Grep on processlist
 
+# Debian apt update
+alias update='sudo apt-get update && sudo apt-get upgrade'
 
